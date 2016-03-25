@@ -1,0 +1,16 @@
+
+# change URLs below to point to repo you want to commit Generatron output. Github's generatronServer should have write permissions
+# Github example provided, should work with other repos e.g. Bitbucket
+git:
+ - bundleName : "Kitura(.)*"
+   gitUrl : "https://github.com/testusergeneratron/SwiftTestG.git"
+   subdir : "KituraBackend"
+   branch : "Generatron"
+ - bundleName : "Perfect(.)*"
+   gitUrl : "https://github.com/testusergeneratron/SwiftTestG.git"
+   subdir : "PerfectBackend"
+   branch : "Generatron"
+ - bundleName : "ionic(.)*"
+   gitUrl : "https://github.com/testusergeneratron/SwiftTestG.git"
+   subdir : "IonicFrontend"
+   branch : "Generatron"
